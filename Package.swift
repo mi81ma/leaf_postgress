@@ -11,7 +11,6 @@ let package = Package(
         .package(url: "https://github.com/vapor/leaf.git", from: "3.0.0-rc"),
 
 //        // postgresql fluent
-//        .package(url: "https://gihub.com/vapor/fluent-postgresql.git", from: "1.0.0"),
         .package(url: "https://github.com/vapor/postgresql.git", from: "1.0.0"),
         
         // 🔵 Swift ORM (queries, models, relations, etc) built on SQLite 3.
